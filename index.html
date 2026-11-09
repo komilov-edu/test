@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONLINE TEST — Платформа тестирования</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-mark" aria-hidden="true">OT</div>
+    <div>
+      <h1>ONLINE TEST</h1>
+      <p>Платформа тестирования студентов</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <p class="eyebrow">ОБУЧЕНИЕ И ПРОВЕРКА ЗНАНИЙ</p>
+      <h2>Выберите дисциплину</h2>
+      <p class="intro-text">Выберите нужный раздел, чтобы перейти к тестам.</p>
+    </section>
+
+    <section class="subject-grid" aria-label="Дисциплины">
+      <a class="subject-card java" href="java/test.html">
+        <span class="subject-icon" aria-hidden="true">☕</span>
+        <span class="subject-name">Java</span>
+        <span class="subject-description">Тесты по языку Java</span>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="subject-card javascript" href="javascript/test.html">
+        <span class="subject-icon" aria-hidden="true">JS</span>
+        <span class="subject-name">JavaScript</span>
+        <span class="subject-description">Тесты по JavaScript</span>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="subject-card cpp" href="cpp/test.html">
+        <span class="subject-icon" aria-hidden="true">&lt;/&gt;</span>
+        <span class="subject-name">C++</span>
+        <span class="subject-description">Тесты по языку C++</span>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="subject-card oop" href="oop/test.html">
+        <span class="subject-icon" aria-hidden="true">▦</span>
+        <span class="subject-name">ООП</span>
+        <span class="subject-description">Классы, наследование и полиморфизм</span>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> ONLINE TEST</p>
+    <p>Учебная платформа</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
